@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/home.ppg">
+
+    <title>Landing Page sederhana</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Al</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">IPA</a>
+                    <div class="circle"></div>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Materi IPA kelas 7</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-name">
+                <p><span class="typedText"></span></p>
+            </div>
+                <div class="featured-text-info">
+                    <p>Ilmu Pengetahuan Alam (IPA) adalah salah satu cabang ilmu yang mempelajari fenomena-fenomena alam dan segala sesuatu yang berkaitan dengan lingkungan sekitar kita. IPA mencakup berbagai disiplin ilmu, seperti fisika, kimia, biologi, dan geologi, yang masing-masing memiliki fokus dan metode penelitian yang berbeda.
+                    </p>
+                </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="sushi.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#projects" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+          <div id="popupModal" class="popup-modal">
+            <div class="popup-content">
+              <span class="close">&times;</span>
+              <p id="popupText"></p>
+            </div>
+          </div>
+       </section>
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Materi IPA kelas 7</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box" >
+                <h3></h3> 
+                <h3 id="toggleText1">Hakikat Ilmu Sains dan Metode Ilmiah</h3>
+                <div class="clickable-text" id="content1" style="display: none;">
+                  <p>
+                    Ilmu sains merupakan suatu sistem pengetahuan yang diperoleh melalui pengamatan, eksperimen, dan analisis yang sistematis. Hakikat ilmu sains terletak pada kemampuannya untuk menjelaskan fenomena alam dengan menggunakan metode ilmiah, yang meliputi langkah-langkah seperti perumusan hipotesis, pengujian melalui eksperimen, dan penarikan kesimpulan berdasarkan data yang diperoleh. Metode ilmiah ini memastikan bahwa pengetahuan yang dihasilkan bersifat objektif dan dapat diuji ulang, sehingga memberikan landasan yang kuat bagi perkembangan ilmu pengetahuan. Dengan demikian, ilmu sains tidak hanya berfokus pada hasil, tetapi juga pada proses yang sistematis dan terukur dalam mencari kebenaran.
+                  </p>  
+                </div>
+              </div>
+              <div class="project-box" >
+                <h3></h3> 
+                <h3 id="toggleText2">Zat dan Perubahannya</h3>
+                <div class="clickable-text" id="content1" style="display: none;">
+                  <p>
+                    Materi adalah segala sesuatu yang memiliki massa dan menempati ruang, dan dapat ditemukan dalam berbagai bentuk, termasuk padat, cair, dan gas. Zat dapat mengalami berbagai perubahan, baik fisik maupun kimia. Perubahan fisik adalah perubahan yang tidak mengubah identitas zat, seperti perubahan bentuk atau keadaan (misalnya, es yang mencair menjadi air), sedangkan perubahan kimia melibatkan transformasi zat menjadi zat baru dengan sifat yang berbeda (seperti pembakaran kayu menjadi abu dan gas). Pemahaman tentang materi dan perubahannya sangat penting dalam ilmu pengetahuan, karena membantu kita memahami reaksi dan interaksi yang terjadi di sekitar kita.
+                  </p>  
+                </div>
+              </div>
+              <div class="project-box" >
+                <h3></h3> 
+                <h3 id="toggleText3"> Suhu, Kalor, dan Perubahannya</h3>
+                <div class="clickable-text" id="content1" style="display: none;">
+                  <p>
+                    Suhu adalah ukuran tingkat panas atau dingin suatu zat, yang berpengaruh pada energi kinetik partikel-partikel dalam zat tersebut. Kalor, di sisi lain, adalah energi yang berpindah dari satu benda ke benda lain akibat perbedaan suhu. Proses perpindahan kalor dapat terjadi melalui konduksi, konveksi, dan radiasi. Ketika zat menerima kalor, suhunya dapat meningkat, menyebabkan perubahan keadaan (misalnya, dari padat menjadi cair), atau dapat menyebabkan perubahan dalam sifat fisik atau kimia zat tersebut. Pemahaman tentang suhu dan kalor sangat penting dalam berbagai aplikasi, mulai dari teknologi pendinginan hingga reaksi kimia.
+                  </p>  
+                </div>
+              </div>
+              <div class="project-box" >
+                <h3></h3> 
+                <h3 id="toggleText4"> Gerak dan Gaya</h3>
+                <div class="clickable-text" id="content1" style="display: none;">
+                  <p>
+                    Gerak adalah perubahan posisi suatu benda terhadap titik acuan dalam waktu tertentu, sedangkan gaya adalah dorongan atau tarikan yang dapat menyebabkan benda bergerak, berhenti, atau berubah arah. Dalam fisika, gaya diukur dalam satuan Newton (N) dan dapat bersifat kontak, seperti gaya gesek, atau non-kontak, seperti gaya gravitasi. Hukum Newton menjelaskan hubungan antara gerak dan gaya, di mana hukum pertama menyatakan bahwa benda akan tetap dalam keadaan diam atau bergerak lurus dengan kecepatan konstan kecuali ada gaya yang bekerja padanya. Pemahaman tentang gerak dan gaya sangat penting dalam berbagai aspek kehidupan sehari-hari, seperti dalam rekayasa, olahraga, dan ilmu pengetahuan.
+                  </p>  
+                </div>
+              </div>
+              <div class="project-box" >
+                <h3></h3> 
+                <h3 id="toggleText5">Klasifikasi Makhluk Hidup</h3>
+                <div class="clickable-text" id="content1" style="display: none;">
+                  <p>
+                    Klasifikasi makhluk hidup adalah proses pengelompokan organisme berdasarkan kesamaan dan perbedaan yang ada di antara mereka. Sistem klasifikasi ini membantu ilmuwan dalam memahami hubungan evolusi dan karakteristik spesifik dari berbagai spesies. Klasifikasi makhluk hidup umumnya dibagi menjadi beberapa tingkatan, mulai dari domain, kingdom, filum, kelas, ordo, famili, genus, hingga spesies. Dengan menggunakan sistem binomial nomenklatur, setiap spesies diberi nama ilmiah yang terdiri dari dua bagian: genus dan spesies. Klasifikasi ini tidak hanya penting untuk identifikasi spesies, tetapi juga untuk studi ekologi, konservasi, dan penelitian biologi lainnya.
+                  </p>  
+                </div>
+              </div>
+              <div class="project-box" >
+                <h3></h3> 
+                <h3 id="toggleText6"> Ekosistem dan Keanekaragaman Hayati</h3>
+                <div class="clickable-text" id="content1" style="display: none;">
+                  <p>
+                    Ekosistem adalah suatu sistem yang terdiri dari komunitas makhluk hidup (biotik) dan lingkungan fisik (abiotik) yang saling berinteraksi dalam suatu area tertentu. Keanekaragaman hayati, yang mencakup variasi di antara spesies, gen, dan ekosistem, adalah indikator penting dari kesehatan ekosistem. Keanekaragaman hayati berperan dalam menjaga keseimbangan ekosistem, memberikan sumber daya alam, dan mendukung berbagai proses ekologis, seperti siklus nutrisi dan penyerbukan. Pelestarian keanekaragaman hayati sangat penting untuk keberlanjutan kehidupan di Bumi, karena penurunan keanekaragaman dapat mengakibatkan kerusakan ekosistem dan hilangnya spesies.
+                  </p>  
+                </div>
+              </div>
+              <div class="project-box" >
+                <h3></h3> 
+                <h3 id="toggleText7">Tata Surya</h3>
+                <div class="clickable-text" id="content1" style="display: none;">
+                  <p>
+                    Tata Surya adalah sistem yang terdiri dari Matahari sebagai pusatnya, bersama dengan delapan planet, bulan, asteroid, komet, dan berbagai benda langit lainnya yang terikat oleh gaya gravitasi. Planet-planet dalam tata surya ini, mulai dari yang terdekat dengan Matahari, yaitu Merkurius, Venus, Bumi, dan Mars, hingga planet gas raksasa seperti Jupiter, Saturnus, Uranus, dan Neptunus, memiliki karakteristik dan komposisi yang berbeda. Selain itu, terdapat juga sabuk asteroid antara Mars dan Jupiter serta sabuk Kuiper yang terletak di luar Neptunus, yang merupakan rumah bagi banyak objek kecil dan es. Penelitian tentang tata surya sangat penting untuk memahami asal-usul dan evolusi planet serta potensi kehidupan di luar Bumi.
+                  </p>  
+                </div>
+              </div>
+       </section>
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Al.</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                <li class="footer_menu_list">
+                    <a href="#projects">Materi IPA kelas 7</a>
+                </li>
+            </ul>
+        </div>
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;
+            color: var(--color-white);">Al</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2 id="modalTitle"></h2>
+          <div id="modalContent"></div>
+        </div>
+      </div>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
